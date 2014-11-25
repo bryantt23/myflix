@@ -1,0 +1,16 @@
+# PostgreSQL. Versions 8.2 and up are supported.
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: myflix_development
+  host: localhost
+
+test:
+  <<: *default
+  database: myflix_test
+  host: localhost
