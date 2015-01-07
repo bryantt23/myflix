@@ -38,6 +38,24 @@ videos = Video.create(
       Kirk in a deadly rendezvous.",
       small_cover_url: '/tmp/sm-star-trek-03.jpg',
       large_cover_url: '/tmp/lg-star-trek-03.jpg'
+    },
+    { title: 'Automata',
+      description: "In a future where Earth's ecosystem verges on collapse, man-made robots roam
+      the city to protect dwindling human life. When a robot overrides a key protocol put in place
+      to protect human life, ROC Robotics insurance agent Jacq Vaucan (Antonio Banderas) is assigned
+      to locate the source of the manipulation and eliminate the threat. What he discovers leads
+      Vaucan, ROC Robotics and the police into a battle with profound consequences for the future
+      of humanity.",
+      small_cover_url: '/tmp/sm-automata.jpg',
+      large_cover_url: '/tmp/lg-automata.jpg'
+    },
+    { title: 'Firefox',
+      description: "The Soviets have developed a revolutionary new jet fighter, called Firefox.
+      Naturally, the British are worried that the jet will be used as a first-strike weapon, as
+      rumours say that the jet is indetectable on radar. They send ex-Vietnam War pilot Mitchell
+      Gant on a covert mission into the Soviet Union to steal Firefox.",
+      small_cover_url: '/tmp/sm-firefox.jpg',
+      large_cover_url: '/tmp/lg-firefox.jpg'
     }
   ]
 )
