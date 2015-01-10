@@ -6,7 +6,7 @@
       .video.col-sm-2
         /= link_to "", nil do
         /  %img(src="/tmp/#{['sm-star-trek-01', 'sm-star-trek-02', 'sm-star-trek-03'].sample}.jpg")
-        = link_to image_tag(Video.last.small_cover_url, size: '166x236'), ""
+        = link_to image_tag(Video.order("RANDOM()").last.small_cover_url, size: '166x236'), ""
 
 %article.video_category
   %header
